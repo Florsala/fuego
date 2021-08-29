@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: #010c0c; }
+
+
+
+
+
 @media only screen and (max-width: 991px) {
   .navbar-expand-lg .navbar-collapse {
     background-color: rgba(255, 255, 255, 0.507);
@@ -36,11 +52,18 @@
 
 .IndexHead {
   width: 90%;
-  position: absolute;
+  /* position: absolute;
   transform: translateY(100%);
-  z-index: 2;
+  z-index: 2; */
   display: flex;
-  flex-direction: row; }
+  flex-direction: row; 
+background-color: #000;
+height: 100px;}
+
+
+
+  /* Menu */
+
 
 .navbar {
   /* position: absolute;
@@ -54,6 +77,7 @@
 .navbar-nav {
   justify-items: center;
   margin-top: 20px; }
+
   .navbar-nav .nav-item {
     margin-right: 10px;
     margin-left: 10px; }
@@ -79,6 +103,9 @@
 
 .navbar-toggler {
   font-size: 1.2em; }
+
+
+  /* iconos redes sociales - Top */
 
 .iconosHead__lista {
   margin: auto;
@@ -156,13 +183,3 @@
 .BotonIndex__btn:hover {
   background-color: rgba(226, 198, 43, 0.664); }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: 'Open Sans Condensed', sans-serif;
-  background-color: #010c0c; }
