@@ -41,7 +41,7 @@ body, html {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -20%);
   z-index: 2;
   width: 80%;
   padding: 20px;
@@ -60,8 +60,16 @@ body, html {
   width: 90%;
   display: flex;
   flex-direction: row; 
-background-color: #000;
-height: 100px;}
+
+height: 100px;
+justify-content: flex-end;
+margin-top: 20px;
+}
+
+.fixed-top {
+  position: absolute;}
+  
+
 
 .navbar {
  
@@ -103,10 +111,7 @@ color: #f1f1f1; }
 
 
   /* iconos redes sociales - Top */
-  .iconosHead{
-   
-  }
-
+ 
 
 .iconosHead__lista {
   margin: auto;
@@ -167,6 +172,9 @@ color: #f1f1f1; }
   letter-spacing: 2px;
   margin-top: 30px; }
 
+
+  /* Boton CTA */
+
 .BotonIndex {
   display: flex;
   justify-content: center;
@@ -175,7 +183,7 @@ color: #f1f1f1; }
 .BotonIndex__btn {
   color: #000;
   border: solid 1px black;
-  background-color: #f4f4ee88;
+  background-color: #f4f4eef5;
   padding: 10px;
   border-radius: 4px;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -184,4 +192,49 @@ color: #f1f1f1; }
 
 .BotonIndex__btn:hover {
   background-color: rgba(226, 198, 43, 0.664); }
+
+
+
+  
+/*Pie de pagina*/
+
+
+.footer {
+   
+  padding-bottom: 40px;
+   
+   }
+
+.footer__contacto{
+   color:rgb(232, 231, 240) ;
+   padding-top: 30px;
+   font-weight: bold;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   text-align: center;
+   font-size: 20px;
+   margin-top: 100px;
+      
+}
+.footer__link{
+   color:rgb(232, 231, 240) ;
+} 
+
+
+.footer__iconos{
+   margin: auto;
+   padding-top: 15px;
+   display: flex;
+  justify-content: center;
+  }
+  .footer__i{
+      padding: 20px ;
+  }
+
+  .footer__a{
+      color: rgb(232, 231, 240);
+  }
+ 
+
+
 
