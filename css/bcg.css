@@ -193,7 +193,7 @@ color: #f1f1f1; }
   font-size: 20px; }
 
 .BotonIndex__btn:hover {
-  background-color: rgba(226, 198, 43, 0.664); }
+  background-color:  #ffc10796; }
 
 
 
@@ -223,6 +223,9 @@ color: #f1f1f1; }
    text-decoration: none;
 } 
 
+.footer__link:hover{
+  color:  #ffc10796;
+}
 
 .footer__iconos{
    margin: auto;
@@ -238,6 +241,8 @@ color: #f1f1f1; }
       color: rgb(232, 231, 240);
   }
  
-
+  .footer__a:hover{
+    color:  #ffc10796;
+  }
 
 
